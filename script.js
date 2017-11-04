@@ -28,16 +28,22 @@
   };
 
   const scrollToTarget = (event) => {
+    let targetClass = $(event.target).attr("data-section")
+    let target = $(`.${targetClass}`)
+
     event.preventDefault();
-    console.log($('html,body'));
-    $('body').animate({
-      scrollTop: "500px"
-    });
+    console.log("target",target);
+    $('html,body').stop().animate({
+      scrollTop: target.offset().top - 12
+    },1000);
   }
 
 
   console.log($(navigation.children()[0]));
-
+  for(let child of $(navigation.children())){
+    console.log($(child));
+    $(child).click(scrollToTarget)
+  }
   $(navigation.children()[0]).click(scrollToTarget);
   formSubmit.click(handleFormSubmit);
 })();
