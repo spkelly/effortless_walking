@@ -1,0 +1,124 @@
+#site-title{
+  padding-top: 200px;
+  padding-bottom: 80px;
+  font-weight:lighter;
+  text-shadow: 2px 2px 8px rgb(0,0,0);
+}
+body{
+  background-color;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.content{
+
+  color: white;
+}
+
+.sec-text{
+  color: black;
+  margin-top: 40px;
+  font-size: 18px;
+  padding:0px 50px;
+
+}
+.section-header-lightBg{
+  color: white;
+  background-color: #6bae7d ;
+  display: inline-block;
+  padding: 4px 8px;
+}
+
+.section-header-darkBg{
+  color: white;
+  background-color: #6bae7d;
+  display: inline-block;
+  padding: 4px 8px;
+}
+
+.main-nav{
+  height: 80px;
+  border-bottom: solid black 1px;
+}
+
+
+
+.jumbotron{
+  padding: 0;
+  border-radius: 0px;
+  background-image: url('images/cover.jpg');
+  height: 1200px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-repeat: top 10px;
+  width: 100%;
+}
+.sec{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.about-sec{
+  margin-top: 100px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.jumbo-overlay{
+  #6bae7d
+}
+
+.sidebar{
+  width: 500px;
+  height: 100%;
+  background-color:rgba(107,160,126,.2);
+  text-shadow: 2px 2px 8px rgb(0,0,0);
+
+  /*border-right: 1px solid rgb(107,174,125)*/
+}
+
+
+.port-img{
+  width:100%;
+}
+.sidebar li{
+  list-style: none;
+  font-size: 24px;
+  padding: 20px 0px;
+  transition: all .2s ease-in-out;
+}
+
+.sidebar li:hover{
+  cursor:pointer;
+  transform: scale(1.1);
+}
+
+.sec-body{
+  margin-top: 40px;
+}
+img{
+  border: 8px solid #6bae7d;
+}
+
+.about-img{
+  width:100%;
+  border: 8px solid #6bae7d
+}
+
+form{
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.email-button{
+  font-size: 24px;
+  background-color: #6bae7d;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  width: 120px;
+  height: 40px;
+}
+.email-input{
+  font-size: 24px;
+  width: 800px;
+  height: 40px;
+}
