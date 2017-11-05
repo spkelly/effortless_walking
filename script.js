@@ -35,7 +35,7 @@
     console.log("target",target);
     $('html,body').stop().animate({
       scrollTop: target.offset().top - 12
-    },1000);
+    },1100);
   }
 
 

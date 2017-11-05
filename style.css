@@ -1,3 +1,8 @@
+/*
+  Colors
+  3e717b
+ #6bae7d*/
+
 #site-title{
   padding-top: 200px;
   padding-bottom: 80px;
@@ -10,6 +15,7 @@ body{
 
 }
 
+
 .content{
 
   color: white;
@@ -18,7 +24,7 @@ body{
 .sec-text{
   color: black;
   margin-top: 40px;
-  font-size: 18px;
+  font-size: 19px;
   padding:0px 50px;
 
 }
@@ -96,7 +102,7 @@ body{
   margin-top: 40px;
 }
 img{
-  border: 8px solid #6bae7d;
+  border: 3px solid #6bae7d;
   box-shadow: 1px 1px 5px 2px #b5b5b5
 }
 
@@ -105,9 +111,11 @@ img{
   border: 8px solid #6bae7d
 }
 
+
 .img-row{
   width: 100%;
-  max-height: 230px;
+  max-height: 260px;
+  min-height: 260px;
 }
 
 form{
@@ -122,9 +130,35 @@ form{
   border-radius: 4px;
   width: 120px;
   height: 40px;
+  line-height: 2px;
 }
 .email-input{
   font-size: 24px;
   width: 800px;
   height: 40px;
+}
+
+.padding-0{
+  padding-left:0;
+  padding-right:0;
+}
+
+.left-side{
+  border-right:0px;
+}
+.right-side{
+  border-left:0;
+}
+
+.middle{
+  border-left: 0;
+  border-right: 0;
+}
+
+.top-pad {
+  margin-top: 40px;
+}
+
+.shadowed{
+  box-shadow: 1px 1px 5px 2px #b5b5b5
 }
