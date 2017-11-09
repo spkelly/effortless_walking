@@ -1,12 +1,13 @@
 /*
   Colors
   3e717b
- #6bae7d*/
+ #3e717b*/
 
 #site-title{
   padding-top: 200px;
   padding-bottom: 80px;
   font-weight:lighter;
+  font-size: 64px;
   text-shadow: 2px 2px 8px rgb(0,0,0);
 }
 body{
@@ -29,15 +30,16 @@ body{
 
 }
 .section-header-lightBg{
+  margin-left: -15px;
   color: white;
-  background-color: #6bae7d ;
+  background-color: #235121 ;
   display: inline-block;
   padding: 4px 8px;
 }
 
 .section-header-darkBg{
   color: white;
-  background-color: #6bae7d;
+  background-color: #3e717b;
   display: inline-block;
   padding: 4px 8px;
 }
@@ -52,12 +54,19 @@ body{
 .jumbotron{
   padding: 0;
   border-radius: 0px;
-  background-image: url('images/cover.jpg');
-  height: 1200px;
+  background-image: url('images/walking_cover.jpg');
+  border-bottom: 2px solid #b1b1b1;
+  height: 1000px;
+   background-position: 0% calc(50%) ;
   background-size:cover;
   background-repeat: no-repeat;
   background-repeat: top 10px;
+  margin-bottom: 0;
   width: 100%;
+}
+.shadow-line{
+  margin-top:black;
+  margin: 0;
 }
 .sec{
     margin-top: 80px;
@@ -69,14 +78,13 @@ body{
   margin-right: 12px;
 }
 
-.jumbo-overlay{
-  #6bae7d
-}
+
 
 .sidebar{
-  width: 500px;
+  width: 400px;
   height: 100%;
-  background-color:rgba(107,160,126,.2);
+  background-color:rgba(35, 81, 33,.6);
+  background-color:rgba(6, 61, 15,.4);
   text-shadow: 2px 2px 8px rgb(0,0,0);
 
   /*border-right: 1px solid rgb(107,174,125)*/
@@ -102,13 +110,13 @@ body{
   margin-top: 40px;
 }
 img{
-  border: 3px solid #6bae7d;
+  border: 3px solid #235121;
   box-shadow: 1px 1px 5px 2px #b5b5b5
 }
 
 .about-img{
   width:100%;
-  border: 8px solid #6bae7d
+  border: 8px solid #3e717b
 }
 
 
@@ -124,7 +132,7 @@ form{
 }
 .email-button{
   font-size: 24px;
-  background-color: #6bae7d;
+  background-color: #235121;
   color: white;
   border: 0;
   border-radius: 4px;
@@ -161,4 +169,20 @@ form{
 
 .shadowed{
   box-shadow: 1px 1px 5px 2px #b5b5b5
+}
+
+.testamonial-sec p{
+  font-style:italic;
+}
+.test-name{
+  text-align: right;
+}
+
+#top-btn{
+  position:fixed;
+  top: 20px;
+  left: 30px;
+  z-index: 10000
+  display: block;
+
 }
