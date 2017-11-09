@@ -32,11 +32,25 @@
     let target = $(`.${targetClass}`)
 
     event.preventDefault();
-    console.log("target",target);
     $('html,body').stop().animate({
       scrollTop: target.offset().top - 12
     },1100);
   }
+
+  $(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 900) {
+    $('#top-btn').fadeIn();
+  } else {
+    $('#top-btn').hide();
+  }
+});
+
+$('#top-btn').click(()=>{
+  $('html,body').stop().animate({
+    scrollTop: 0
+  },1100);
+})
 
 
   console.log($(navigation.children()[0]));
