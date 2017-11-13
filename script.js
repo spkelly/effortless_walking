@@ -52,6 +52,13 @@ $('#top-btn').click(()=>{
   },1100);
 })
 
+$('.expand-btn').click((e) =>{
+  let button = $(e.target);
+  $('.minimized').slideToggle();
+  let buttonText = button.text() == "more..."? "less...":"more...";
+  button.text(buttonText);
+})
+
 
   console.log($(navigation.children()[0]));
   for(let child of $(navigation.children())){
