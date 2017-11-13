@@ -26,7 +26,9 @@ body{
 .sec-text{
   color: black;
   font-size: 19px;
+  
   padding:0px 50px;
+  padding-top: 20px;
 
 }
 .section-header-lightBg{
@@ -212,4 +214,19 @@ form{
 
 .minimized .row{
   margin-top: 20px;
+}
+
+.sub-sec{
+  margin-top: 40px;
+  padding-left: 50px;
+}
+
+.sub-sec p{
+  padding-top: 10px;
+
+}
+
+.sub-heading{
+  color: #235121;
+  padding-bottom:20px;
 }
